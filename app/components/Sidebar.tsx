@@ -6,13 +6,13 @@ export default function Sidebar() {
       <h3>Categories:</h3>
       <ul className="flex gap-6 list-none  ">
         <li className="hover:text-sky-400">
-          <Link href="/iphone">iPhone</Link>
+          <Link href="/iphonePage">iPhone</Link>
         </li>
         <li className="hover:text-sky-400">
-          <Link href="/watch">Watch</Link>
+          <Link href="/watchPage">Watch</Link>
         </li>
         <li className="hover:text-sky-400">
-          <Link href="/macbook">Macbook</Link>
+          <Link href="/macbookPage">Macbook</Link>
         </li>
       </ul>
     </div>

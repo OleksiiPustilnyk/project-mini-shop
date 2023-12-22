@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import ProductsList from "./components/products/ProductsList";
 import Sidebar from "./components/Sidebar";
 
