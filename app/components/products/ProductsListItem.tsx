@@ -1,4 +1,4 @@
-import "./ProductsListItem.css";
+import "./ProductsListItem.scss";
 
 type Props = {
   id: number;
@@ -10,10 +10,10 @@ type Props = {
 
 const ProductsListItem = ({ id, img, title, description, category }: Props) => {
   return (
-    <div className=" bg-red-800">
+    <div className=" ">
       <div>
-        <div className="product-img">
-          <img src={img} alt="img-product" />
+        <div className="product-img border-b border-gray-400 p-4 ">
+          <img src={img} alt="img-product " />
         </div>
         <h4 className="product-title">{title}</h4>
         <div className="product-description">{description}</div>
